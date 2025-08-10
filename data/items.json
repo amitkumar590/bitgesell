@@ -1,7 +1,332 @@
 [
-  { "id": 1, "name": "Laptop Pro", "category": "Electronics", "price": 2499 },
-  { "id": 2, "name": "Noise Cancelling Headphones", "category": "Electronics", "price": 399 },
-  { "id": 3, "name": "Ultra‑Wide Monitor", "category": "Electronics", "price": 999 },
-  { "id": 4, "name": "Ergonomic Chair", "category": "Furniture", "price": 799 },
-  { "id": 5, "name": "Standing Desk", "category": "Furniture", "price": 1199 }
+  {
+    "id": 1,
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 2499
+  },
+  {
+    "id": 2,
+    "name": "Noise Cancelling Headphones",
+    "category": "Electronics",
+    "price": 399
+  },
+  {
+    "id": 3,
+    "name": "Ultra‑Wide Monitor",
+    "category": "Electronics",
+    "price": 999
+  },
+  {
+    "id": 4,
+    "name": "Ergonomic Chair",
+    "category": "Furniture",
+    "price": 799
+  },
+  {
+    "id": 5,
+    "name": "Standing Desk",
+    "category": "Furniture",
+    "price": 1199
+  },
+  {
+    "id": 6,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 59
+  },
+  {
+    "id": 7,
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 149
+  },
+  {
+    "id": 8,
+    "name": "Office Lamp",
+    "category": "Furniture",
+    "price": 89
+  },
+  {
+    "id": 9,
+    "name": "Coffee Table",
+    "category": "Furniture",
+    "price": 299
+  },
+  {
+    "id": 10,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 129
+  },
+  {
+    "id": 11,
+    "name": "Tablet Pro",
+    "category": "Electronics",
+    "price": 899
+  },
+  {
+    "id": 12,
+    "name": "Gaming Chair",
+    "category": "Furniture",
+    "price": 399
+  },
+  {
+    "id": 13,
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 349
+  },
+  {
+    "id": 14,
+    "name": "Bookshelf",
+    "category": "Furniture",
+    "price": 199
+  },
+  {
+    "id": 15,
+    "name": "Webcam HD",
+    "category": "Electronics",
+    "price": 79
+  },
+  {
+    "id": 16,
+    "name": "Desk Organizer",
+    "category": "Furniture",
+    "price": 45
+  },
+  {
+    "id": 17,
+    "name": "USB Hub",
+    "category": "Electronics",
+    "price": 25
+  },
+  {
+    "id": 18,
+    "name": "Floor Lamp",
+    "category": "Furniture",
+    "price": 159
+  },
+  {
+    "id": 19,
+    "name": "External Hard Drive",
+    "category": "Electronics",
+    "price": 89
+  },
+  {
+    "id": 20,
+    "name": "Filing Cabinet",
+    "category": "Furniture",
+    "price": 249
+  },
+  {
+    "name": "Test Item",
+    "category": "Test Category",
+    "price": 100,
+    "id": 1754830019154
+  },
+  {
+    "id": 21,
+    "name": "Wireless Earbuds",
+    "category": "Electronics",
+    "price": 199
+  },
+  {
+    "id": 22,
+    "name": "Office Chair",
+    "category": "Furniture",
+    "price": 299
+  },
+  {
+    "id": 23,
+    "name": "Monitor Stand",
+    "category": "Furniture",
+    "price": 89
+  },
+  {
+    "id": 24,
+    "name": "USB-C Cable",
+    "category": "Electronics",
+    "price": 15
+  },
+  {
+    "id": 25,
+    "name": "Desk Mat",
+    "category": "Furniture",
+    "price": 35
+  },
+  {
+    "id": 26,
+    "name": "Power Strip",
+    "category": "Electronics",
+    "price": 45
+  },
+  {
+    "id": 27,
+    "name": "Wall Clock",
+    "category": "Furniture",
+    "price": 25
+  },
+  {
+    "id": 28,
+    "name": "Bluetooth Mouse",
+    "category": "Electronics",
+    "price": 35
+  },
+  {
+    "id": 29,
+    "name": "Plant Pot",
+    "category": "Furniture",
+    "price": 20
+  },
+  {
+    "id": 30,
+    "name": "HDMI Cable",
+    "category": "Electronics",
+    "price": 12
+  },
+  {
+    "id": 31,
+    "name": "Cable Organizer",
+    "category": "Furniture",
+    "price": 18
+  },
+  {
+    "id": 32,
+    "name": "Wireless Charger",
+    "category": "Electronics",
+    "price": 49
+  },
+  {
+    "id": 33,
+    "name": "Picture Frame",
+    "category": "Furniture",
+    "price": 22
+  },
+  {
+    "id": 34,
+    "name": "Phone Stand",
+    "category": "Electronics",
+    "price": 15
+  },
+  {
+    "id": 35,
+    "name": "Storage Box",
+    "category": "Furniture",
+    "price": 28
+  },
+  {
+    "id": 36,
+    "name": "Laptop Stand",
+    "category": "Electronics",
+    "price": 75
+  },
+  {
+    "id": 37,
+    "name": "Throw Pillow",
+    "category": "Furniture",
+    "price": 32
+  },
+  {
+    "id": 38,
+    "name": "USB Flash Drive",
+    "category": "Electronics",
+    "price": 18
+  },
+  {
+    "id": 39,
+    "name": "Rug",
+    "category": "Furniture",
+    "price": 85
+  },
+  {
+    "id": 40,
+    "name": "Wireless Keyboard",
+    "category": "Electronics",
+    "price": 65
+  },
+  {
+    "id": 41,
+    "name": "Curtains",
+    "category": "Furniture",
+    "price": 45
+  },
+  {
+    "id": 42,
+    "name": "Microphone",
+    "category": "Electronics",
+    "price": 89
+  },
+  {
+    "id": 43,
+    "name": "Mirror",
+    "category": "Furniture",
+    "price": 55
+  },
+  {
+    "id": 44,
+    "name": "Graphics Card",
+    "category": "Electronics",
+    "price": 599
+  },
+  {
+    "id": 45,
+    "name": "Shelf Unit",
+    "category": "Furniture",
+    "price": 120
+  },
+  {
+    "id": 46,
+    "name": "SSD Drive",
+    "category": "Electronics",
+    "price": 129
+  },
+  {
+    "id": 47,
+    "name": "Ottoman",
+    "category": "Furniture",
+    "price": 95
+  },
+  {
+    "id": 48,
+    "name": "RAM Module",
+    "category": "Electronics",
+    "price": 89
+  },
+  {
+    "id": 49,
+    "name": "Side Table",
+    "category": "Furniture",
+    "price": 75
+  },
+  {
+    "id": 50,
+    "name": "CPU Cooler",
+    "category": "Electronics",
+    "price": 65
+  },
+  {
+    "name": "Test Item",
+    "category": "Test Category",
+    "price": 100,
+    "id": 1754831382487
+  },
+  {
+    "name": "Test Item",
+    "category": "Test Category",
+    "price": 100,
+    "id": 1754831407156
+  },
+  {
+    "name": "Test Item",
+    "category": "Test Category",
+    "price": 100,
+    "id": 1754831460748
+  },
+  {
+    "name": "Test Item",
+    "category": "Test Category",
+    "price": 100,
+    "id": 1754832286749
+  }
 ]
