@@ -4,7 +4,7 @@ const path = require('path');
 const router = express.Router();
 const DATA_PATH = path.join(__dirname, '../../../data/items.json');
 
-// Utility to read data (intentionally sync to highlight blocking issue)
+// Utility to read data
 async function readData() {
   try {
     const raw = await fs.promises.readFile(DATA_PATH, "utf8");
@@ -79,16 +79,29 @@ router.get('/:id', async (req, res, next) => {
 // POST /api/items
 router.post('/', async (req, res, next) => {
   try {
-    // TODO: Validate payload (intentional omission)
-    const item = req.body;
+    const { name, category, price } = req.body;
+
+    // Basic validation
+    if (!name || !category || typeof price !== 'number') {
+      return res.status(400).json({ error: 'Invalid item payload' });
+    }
+
     const data = await readData();
-    item.id = Date.now();
+    const item = {
+      id: Date.now(),
+      name,
+      category,
+      price
+    };
+
     data.push(item);
+
     await fs.promises.writeFile(
       DATA_PATH,
       JSON.stringify(data, null, 2),
-      "utf8"
+      'utf8'
     );
+
     res.status(201).json(item);
   } catch (err) {
     next(err);
